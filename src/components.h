@@ -110,6 +110,17 @@ typedef struct WeaponAction
   int action;
 } WeaponAction;
 
+typedef struct EnemyBehavior
+{
+  int e_range;
+  int out_range;
+} EnemyRange;
+
+typedef struct Node
+{
+  int data;
+  struct Node* next;
+} Node;
 typedef int PlayerTag;
 
 typedef int EnemyTag;
